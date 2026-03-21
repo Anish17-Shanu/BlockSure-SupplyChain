@@ -1,0 +1,55 @@
+{
+  "network": "local-simnet",
+  "contract": "ProvenanceRegistry",
+  "generatedAt": "2026-03-21T14:29:24.643Z",
+  "asset": {
+    "id": "a69bb377af21cb014dd5ef105215943607ef4c920abcfe47cf220446861b17eb",
+    "sku": "PHARMA-001",
+    "batchId": "BATCH-77",
+    "currentCustodian": "Ranchi Care Distribution",
+    "complianceStatus": "Healthy",
+    "temperatureC": 4.1,
+    "recalled": false
+  },
+  "metrics": {
+    "totalEvents": 4,
+    "compliancePassRate": "100%",
+    "custodyTransfers": 2
+  },
+  "events": [
+    {
+      "block": 101,
+      "type": "AssetRegistered",
+      "actor": "MediCore Labs",
+      "location": "28.6139,77.2090",
+      "note": "Registered cold-chain insulin batch",
+      "timestamp": "2026-03-21T09:00:00Z"
+    },
+    {
+      "block": 118,
+      "type": "CustodyTransferred",
+      "actor": "TransGlobe Cold Logistics",
+      "location": "25.5941,85.1376",
+      "note": "Custody moved to certified cold logistics partner",
+      "timestamp": "2026-03-21T14:15:00Z"
+    },
+    {
+      "block": 132,
+      "type": "ComplianceUpdated",
+      "actor": "IoT Compliance Gateway",
+      "location": "23.3441,85.3096",
+      "note": "Temperature remained within approved range",
+      "temperatureC": 4.1,
+      "recalled": false,
+      "timestamp": "2026-03-21T18:45:00Z"
+    },
+    {
+      "block": 149,
+      "type": "CustodyTransferred",
+      "actor": "Ranchi Care Distribution",
+      "location": "23.3441,85.3096",
+      "note": "Delivered to regional distribution point",
+      "timestamp": "2026-03-22T07:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "blocksure-supply-chain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local blockchain provenance demo with Solidity contract and dashboard",
+  "scripts": {
+    "simulate": "node scripts/simulate-ledger.js",
+    "serve": "node server.js",
+    "test": "node tests/run-tests.js"
+  }
+}

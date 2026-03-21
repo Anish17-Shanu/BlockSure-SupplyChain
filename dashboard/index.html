@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlockSure Supply Chain</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Blockchain Provenance</p>
+        <h1>BlockSure Supply Chain</h1>
+        <p class="lede">Track asset registration, custody transfers, and compliance events through a local blockchain-style operations dashboard.</p>
+      </section>
+      <section class="grid" id="metrics"></section>
+      <section class="panel-grid">
+        <section class="asset-card" id="asset"></section>
+        <section class="control-card">
+          <h2>Operate Ledger</h2>
+          <form id="register-form" class="stack">
+            <input name="sku" placeholder="SKU" required />
+            <input name="batchId" placeholder="Batch ID" required />
+            <input name="custodian" placeholder="Custodian" required />
+            <input name="location" placeholder="Location" required />
+            <input name="temperatureC" placeholder="Temperature C" type="number" step="0.1" />
+            <button type="submit">Register Asset</button>
+          </form>
+          <form id="transfer-form" class="stack">
+            <input name="custodian" placeholder="New Custodian" required />
+            <input name="location" placeholder="Transfer Location" required />
+            <input name="note" placeholder="Transfer Note" />
+            <button type="submit">Transfer Custody</button>
+          </form>
+          <form id="compliance-form" class="stack">
+            <input name="actor" placeholder="Compliance Actor" />
+            <input name="location" placeholder="Compliance Location" required />
+            <input name="temperatureC" placeholder="Temperature C" type="number" step="0.1" required />
+            <label class="toggle"><input name="recalled" type="checkbox" /> Mark as recalled</label>
+            <button type="submit">Update Compliance</button>
+          </form>
+          <p class="muted" id="status">Ready.</p>
+        </section>
+      </section>
+      <section class="timeline" id="timeline"></section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
