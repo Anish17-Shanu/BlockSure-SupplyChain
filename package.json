@@ -2,6 +2,7 @@
   "name": "blocksure-supply-chain",
   "version": "1.0.0",
   "private": true,
+  "author": "Anish Kumar",
   "description": "Local blockchain provenance demo with Solidity contract and dashboard",
   "scripts": {
     "simulate": "node scripts/simulate-ledger.js",
