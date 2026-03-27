@@ -2,8 +2,8 @@
 
 ## Creator
 
-This project was created, written, and maintained by **Anish Kumar (ANISH KUMAR)**.
-All primary documentation in this README is presented as the work of **Anish Kumar**.
+This project was created, written, and maintained by **ANISH KUMAR**.
+All primary documentation in this README is presented as the work of **ANISH KUMAR**.
 
 BlockSure Supply Chain is a blockchain-oriented provenance project for high-value goods. It combines a Solidity contract design, a local ledger simulation script, a local HTTP API, and an operations dashboard so you can demonstrate end-to-end thinking without depending on a live chain on day one.
 
